@@ -12,7 +12,7 @@ import (
 
 func main() {
 	fmt.Println("Hi dream")
-	dbSource := ""
+	dbSource := "postgres://postgres:admin@127.0.0.1:5432/postgres?sslmode=disable"
 	db := datastore.NewDB(&dbSource)
 	db.Logger.LogMode(logger.Info)
 	defer func() {
