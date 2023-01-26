@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"dream/entities"
+	"dream/domain/entities"
 )
 
 type DreamRepository interface {

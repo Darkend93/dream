@@ -2,8 +2,8 @@ package interactor
 
 import (
 	"context"
-	"dream/entities"
-	m "dream/models"
+	"dream/domain/entities"
+	m "dream/domain/models"
 	"dream/usecases/presenter"
 	"dream/usecases/repository"
 )

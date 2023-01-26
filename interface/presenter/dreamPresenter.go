@@ -1,7 +1,7 @@
 package presenter
 
 import (
-	"dream/models"
+	"dream/domain/models"
 	"dream/usecases/presenter"
 )
 

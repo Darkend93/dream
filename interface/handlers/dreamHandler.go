@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"dream/models"
+	"dream/domain/models"
 	"dream/usecases/interactor"
 
 	"github.com/gin-gonic/gin"
